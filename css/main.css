@@ -1,1 +1,40 @@
-/* You'll probably want to add some styles here */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
+
+footer{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: lightgrey;
+    font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+body{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#container{
+    padding-left: 50%;
+    margin-left: 5%;
+}
+a:visited{
+    color:#0000AA;
+    text-decoration: none;
+}
+a:link{
+    color:#0000AA;
+    text-decoration: none;
+}
+a:hover {
+    color: #0000EE;
+}
+:focus{
+    color: #0000EE;
+}

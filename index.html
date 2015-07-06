@@ -13,10 +13,24 @@
 
   <body>
     <div id="container" style="width:500px; height:500px;"></div>
+    <script type="text/javascript" src="js/map.js"></script>
     <script>
-      
-    	// This is where you should execute your drawMap function // 
-
+      $(document).ready(function(){
+        drawMap();
+      });
     </script>
+    <div>
+      <li>Clicking the menu on the right corner, you can choose either showing all of the markers or showing none of the markers.<br/></li>
+      <li>Each marker represents a police shooting data; black markers represent data that the victim's gender is male while red markers
+      represent data that the victim's gender is female<br/></li>
+      <li>By clicking either 'Under 18' or 'Over 18', you can see markers representing the corresponding information.<br/></li>
+      <li>By clicking at the markers themselves, you can see the summary of the specific data.
+      </li><br/>
+    </div>
   </body>
+  <footer>
+    Original Data Source: 
+    <a href='https://docs.google.com/spreadsheets/d/1cEGQ3eAFKpFBVq1k2mZIy5mBPxC6nBTJHzuSWtZQSVw/edit#gid=1144428085'>https://docs.google.com/spreadsheets/d/1cEGQ3eAFKpFBVq1k2mZIy5mBPxC6nBTJHzuSWtZQSVw/edit#gid=1144428085</a>
+    <p>This map is showing the police-involved shootings from 2011, 2012, 2013, and 2014 in United States</p>
+  </footer>
 </html>
